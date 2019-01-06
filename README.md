@@ -4,26 +4,7 @@
 Features:
 ===========
 
-> ** Multi accounts manager:**Multi accounts manager: You can manage your multiple twitter accounts and easily switch between accounts without logging in again and again . ![](http://i.imgur.com/9zWtCz8.png)
-
->**All features:** This is the compact list of features available in application.![](http://i.imgur.com/TaGlRFB.jpg) 
-
->**Feeds view:** You can check all your Feeds here.![](http://i.imgur.com/zwxqlod.png)
-![](http://i.imgur.com/kYRU2j0.png) 
-
->**All Following:** You can see list of user whom you are following in this view.![](http://i.imgur.com/hOaHz0V.png)
-
->**Tweet to Follower:** You Can tweet to a User you are following.![](http://i.imgur.com/RTbiYVG.png)
-
->**Copy Follower:**Search any user by typing username and set rang to follow that users folowers. ![](http://i.imgur.com/koGsuyF.png)
-
->**Tweet schedule:** You can schedule your message to post on future date.![](http://i.imgur.com/wDhGK5C.png)
- ![](http://i.imgur.com/JQUikXW.png) 
-
->**Search User/Trends:** You search perticular user OR top trending topics here.![](http://i.imgur.com/6kEXfw1.png)
-
->**Overlaping Users:** Trace all overlapping followers and followings with another user here.![](http://i.imgur.com/9QQ6gwY.png)
- 
+> ** Multi accounts manager:**Multi accounts manager: You can manage your multiple twitter accounts and easily switch between accounts without logging in again and again . 
 
  Installation Guide Android:
 ===========
@@ -35,14 +16,13 @@ The easiest way to build is to install Android IDE, Once installed, then you can
 	
 2.	Import Project.
 
-	![](http://i.imgur.com/d1NkOaE.png) 
-	![](http://i.imgur.com/MfBTyow.png) 
+
 	
 3.	Select tboardpro , android support library, Graph library and viewpager library.
 
 4.	Add project libraries into tboardpro project.
 
-	![](http://i.imgur.com/zBOZbI2.png)
+	
 	
 5.	Clean and build all projects after importing.
 	
@@ -51,7 +31,7 @@ The easiest way to build is to install Android IDE, Once installed, then you can
    **SplashActivity** class
 
 7. insert your API key credentials to method **initializeTwitterkeys("xxkeyxxx", "xxxsecretx");** inside @onCreate() method.
-   ![](http://i.imgur.com/pDf37U4.png)	
+  
 
 After building and configuring the project while running on your device ,you might find that your device doesn't let you install your build if you already have the version from Google Play installed. This is standard Android security as it won't let you directly replace an app that's been signed with a different key. Manually uninstall tboardpro from your device and you will then be able to install your own built version.
 
